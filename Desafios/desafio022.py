@@ -1,0 +1,7 @@
+n1 = str(input('Qual o seu nome: ')).strip()
+print(f'Nome em caixa alta: {n1.upper()}')
+print(f'Nome em letras minúsculas: {n1.lower()}')
+frase = n1.split()
+frase2 = ''.join(frase)
+print(f'O número de letras da frase é {len(frase2)}')
+print(f'O número de letras do primeiro nome: "{frase[0]}", é {len(frase[0])}')
